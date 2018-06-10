@@ -16,7 +16,7 @@ export default class NavbarMenu extends React.Component{
                         <img 
                             id="Home"
                             className="logo" 
-                            src="/img/aBlueLemonOutside.png" alt="a blue lemon logo" 
+                            src="/img/blue-lemon-logo_new.png" alt="a blue lemon logo" 
                             onClick={this.selectPage.bind(this)}/></li>                
                     </ul>
                 </nav>

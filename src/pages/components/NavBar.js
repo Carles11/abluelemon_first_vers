@@ -14,7 +14,7 @@ export default class Navbar extends React.Component{
                     <li className='navbar_item_r'>
                         <img 
                             className="logo" 
-                            src="/img/aBlueLemonOutside.png" 
+                            src="/img/blue-lemon-logo_new.png" 
                             alt="a blue lemon productions logo" 
                             onClick={this.selectPage.bind(this)}
                             /></li>                

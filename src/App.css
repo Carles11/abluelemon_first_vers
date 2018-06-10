@@ -27,7 +27,7 @@ body {
   margin-left: 20px;
 }
 .logo{
-  height: 50px;
+  height: 70px;
 }
 .burger {
   width: 40px;
@@ -58,12 +58,10 @@ body {
 }
 .home_subtitle {
   position: relative;
-  padding-left: 5em;
-  padding-top: 0em;
-  padding-right: 2em;
+  padding-right: 5em;
   text-align: right;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 50;
+  font-weight: 20;
   font-size: 1.7em;
   color: #696969;
 }
@@ -155,7 +153,7 @@ body {
 .aboutUs_bg {
   background-color: black;
   opacity: 0.7;
-  height: 100px;
+  height: cover;
 }
 .link {
   color: white !important;
