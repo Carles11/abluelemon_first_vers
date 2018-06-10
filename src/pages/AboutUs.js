@@ -6,11 +6,9 @@ export default class AboutUs extends React.Component{
             <div className="aboutUs">
                 <div className="aboutUs_title">About Us</div>
 
-                <div className="text_aboutUs">
-                    <h3> A blue lemon productions are:</h3>
-                    <p>Hassan Mokdad</p>
-                    <p>Xavi del Río</p>
-                    <p>Carles del Río</p>
+                <div className="text_aboutUs aboutUs_bg">
+                    <h4> A Blue Lemon Productions finds itself in the early stages of creation and is still in the process of being formed as the organizer of the first <br /> Latin World Music Festival in Dubai (UAE).</h4>
+                    
                 </div>
 
             </div>
