@@ -12,7 +12,7 @@ const Home = () =>
         { property: "og:title", content: `Home page` }
       ]}
     />
-    <h1>Home</h1>  
+    <h1>Home...</h1>  
   </section>
 
 export default Home

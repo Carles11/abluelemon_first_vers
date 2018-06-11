@@ -4,6 +4,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Routes from './Routes'
+import Header from './components/Header'
 
 import './css/App.css'
 
@@ -13,6 +14,7 @@ const App = () =>
       <link rel="canonical" href="http://abluelemon.com" />
       <meta name="description" content='A Blue Lemon Productions is ...'  />
     </Helmet>
+    <Header />
     <Routes />
   </main>
 
