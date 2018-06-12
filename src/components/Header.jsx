@@ -1,3 +1,4 @@
+// @flow
 
 import React from 'react'
 import Navigation from './Navigation'
@@ -9,8 +10,12 @@ const nav = [
   { name: 'Contact', url: '/contact' },
 ]
 
-class Header extends React.Component {
-  state = {
+type State = {
+  showMenu: boolean
+}
+
+class Header extends React.Component<*, State> {
+  state: State = {
     showMenu: false
   }
 

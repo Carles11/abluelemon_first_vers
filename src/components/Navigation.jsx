@@ -1,7 +1,13 @@
+// @flow
+
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Navigation = props => {
+type Props = {
+  items: Array<Object>
+}
+
+const Navigation = (props: Props) => {
   const { items } = props
 
   return (
